@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from nouthemes.net/html/voye/homepage-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Oct 2022 07:17:15 GMT -->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link href="apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="favicon.png" rel="icon">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Revoue</title>
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,900%7CTangerine:400,700%7CPlayfair+Display:400,700"
+        rel="stylesheet">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plugins/bootstrap4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="plugins/owl-carousel/assets/owl.carousel.css">
+    <link rel="stylesheet" href="plugins/slick/slick/slick.css">
+    <link rel="stylesheet" href="plugins/lightGallery-master/dist/css/lightgallery.min.css">
+    <link rel="stylesheet" href="plugins/jquery-bar-rating/dist/themes/fontawesome-stars.css">
+    <link rel="stylesheet" href="plugins/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="plugins/voye-icons/style.css">
+    <link rel="stylesheet" href="plugins/selectize/dist/css/selectize.css">
+    <link rel="stylesheet" href="css/style.css">    
+    <link rel="stylesheet" href="css/calculatorstyle.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+    
+
+
+    <!-- ====== calculator page start ======= -->
+
+
+
+
+
+    <!-- ===== header banner  start ======= -->
+
+
+
+    <!-- ===== header banner  end ======= -->
+
+
+
+
+    <!-- ====== text block top start ===== -->
+
+    
+
+
+    <!-- ====== text block top end ===== -->
+
+    <div class="container same-width-warpper mt-5">
+        <div class="row">
+            <div class="col-lg-12 col-sm-12">
+                <div class="calculator-text">
+                    <h4>Enter your measurements below or move arrow on the measurement tape</h4>
+
+                     <div class="d-flex size-button ">
+                        <a href="javascript:void(0)" class=" button-in inches">
+                            In
+                        </a>
+                        <a href="javascript:void(0)" class="button-cm ">
+                            Cm
+                        </a>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <div class="row p-5 flex-wrap calculator1" style="margin-top: 40px;">
+            <div class="col-lg-4 col-md-4">
+                <div class="calculator-body-size ">
+                    <img src="img/calculator/body.png" alt="">
+                    
+                </div>
+                <div class="inches-slider">
+                    <input type="range" id="myRange_inches" value="23" min="23" max="41" class="extra-inche-tape">
+                    <div class="size-miter-img"></div>
+                </div>
+                <div class="size-miter ">
+                    
+                    <input type="number" id="underb">
+                    <h5>Underbrust</h5>
+
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-4">
+                <div class="calculator-body-size">
+                    <img src="img/calculator/body.png" alt="">
+
+                </div>
+                    
+                    <div class="inches-slider extra-margin">
+                        <input type="range" id="myRange1_inches" value="28" min="28" max="50" class="extra-inche-tape">
+                        <div class="size-miter-img over"></div>
+                    </div>
+                    <div class="size-miter">
+                        
+                        <input type="number" id="overb">
+                            <h5>Overbrust</h5>
+
+                    </div>
+
+                
+
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4">
+                <div>
+                   
+                    <div class="result-wrap">
+
+                        <div class="result-contant text-center">
+                            <p>
+                                <span>YOUR</span> <br>
+                                BRA SIZE <br />
+                                <span style="font-size: 15px;"> (in inch) </span>
+                            </p>
+                        </div>
+                        <div class="text-center"><input type="text" id="resultb">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+        <div class="row p-5 flex-wrap calculator2" style="display: none; margin-top: 40px;">
+            <div class="col-lg-4 col-md-4">
+                <div class="calculator-body-size ">
+                    <img src="img/calculator/body.png" alt="">
+                    
+                </div>
+                <div class="inches-slider">
+                    <input type="range" id="mayRange_cm" value="58" min="58" max="104" class="extra-inche-tape">
+                    <div class="size-miter-img"></div>
+                </div>
+                <div class="size-miter ">
+                    
+                    <input type="number" id="undercm">
+                    <h5>Underbrust</h5>
+
+                </div>
+            </div>
+
+
+            <div class="col-lg-4 col-md-4 ">
+                <div class="calculator-body-size">
+                    <img src="img/calculator/body.png" alt="">
+                </div>
+                    <div class="inches-slider extra-margin">
+                        <input type="range" id="mayRange1-cm" value="71" min="71" max="127" class="extra-inche-tape">
+                        <div class="size-miter-img over"></div>
+                    </div>
+                    <div class="size-miter">
+                        
+                        <input type="number" id="overcm">
+                            <h5>Overbrust</h5>
+
+                    </div>
+
+                
+
+            </div>
+
+            <div class="col-12 col-sm-12 col-md-4">
+                <div>
+                   
+                    <div class="result-wrap">
+
+                        <div class="result-contant text-center">
+                            <p>
+                                <span>YOUR</span> <br>
+                                BRA SIZE <br />
+                                <span style="font-size: 15px;"> (in cm) </span>
+                            </p>
+                        </div>
+                        <div class="text-center"><input type="text" id="resultcm">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+
+
+        <!-- <div class="row p-5 flex-wrap  calculator2" style="display: none;">
+            <div class="col-lg-5 col-md-5">
+                <div class="calculator-body-size">
+                    <img src="img/calculator/body.jpg" alt="">
+                    
+                </div>
+                <div class="inches-slider">
+                    <input type="range" id="mayRange_cm" value="58" min="58" max="104" class="extra-inche-tape">
+                </div>
+                <div class="size-miter">
+                    <h5>Underbrust</h5>
+                    <input type="number" id="undercm">
+
+                </div>
+            </div>
+
+            <div class="col-2  col-sm-12 col-md-2">
+                <div>
+                    <div class="d-flex size-button ">
+                        <a href="javascript:void(0)" class=" button-in inches">
+                            In
+                        </a>
+                        <a href="javascript:void(0)" class="button-cm ">
+                            Cm
+                        </a>
+                    </div>
+
+                    <dIV class="result-wrap">
+
+                        <div class="result-contant">
+                            <p>
+                                <span> your</span> <br>
+                                BRA <br> SIZE
+                                <span style="font-size: 15px;"> in cm</span>
+                            </p>
+
+                        </div>
+                        <div>
+                            <input type="text" id="resultcm">
+                        </div>
+                    </dIV>
+                </div>
+            </div>
+            <div class="col-lg-5 col-md-5">
+                <div class="calculator-body-size">
+                    <img src="img/calculator/body.jpg" alt="">
+                    
+                    <div class="inches-slider extra-margin">
+                        <input type="range" id="mayRange1-cm" value="71" min="71" max="127" class="extra-inche-tape">
+                    </div>
+                    <div class="size-miter over-brust-miter">
+                        <h5>Overbrust</h5>
+                        <input type="number" id="overcm">
+
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div> -->
+
+
+
+
+    </div>
+
+
+
+
+    <!-- ====== calculator page end ======= -->
+
+
+
+
+    <!--===Bra size table start===-->
+    <div class="container same-width-warpper mt-5">
+        <div class="row">
+            <div class="col-12">
+                <div class="table-text-wrap">
+                    <div>
+                        <h3>Here’s a detailed Bra Size Chart for Indian body types to help you with your right size</h3>
+                        <div class="table-button">
+                            <a href="javascript:void(0)" class="button1 inches-table">
+                                In
+                            </a>
+                            <a href="javascript:void(0)" class="button2 ">
+                                Cm
+                            </a>
+                        </div>
+
+
+                    </div>
+
+                    <table class="bra-size-table-wrap table1 ">
+                        <tbody>
+                            <tr bgcolor="#e3e3e3" style="color: #000">
+                                <td rowspan="2">BAND SIZE</td>
+                                <td rowspan="2">UNDERBUST <br>(In inches)</td>
+                                <td colspan="6">OVER BUST (In inches)</td>
+
+                            </tr>
+                            <tr style="color: #000" bgcolor="#ebebeb">
+
+                                <td>CUP A</td>
+                                <td>CUP B</td>
+                                <td>CUP C</td>
+                                <td>CUP D</td>
+                                <td>CUP E</td>
+                                <td>CUP F</td>
+                            </tr>
+
+                            <tr>
+                                <td>28</td>
+                                <td>23-24</td>
+                                <td>28-29</td>
+                                <td>29-30</td>
+                                <td>30-31</td>
+                                <td>31-32</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td>25-26</td>
+                                <td>30-31</td>
+                                <td>31-32</td>
+                                <td>32-33</td>
+                                <td>33-34</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>32</td>
+                                <td>27-28</td>
+                                <td>32-33</td>
+                                <td>33-34</td>
+                                <td>34-35</td>
+                                <td>35-36</td>
+                                <td>36-37</td>
+                                <td>37-38</td>
+                            </tr>
+
+                            <tr>
+                                <td>34</td>
+                                <td>29-30</td>
+                                <td>34-35</td>
+                                <td>35-36</td>
+                                <td>36-37</td>
+                                <td>37-38</td>
+                                <td>38-39</td>
+                                <td>39-40</td>
+                            </tr>
+
+                            <tr>
+                                <td>36</td>
+                                <td>31-32</td>
+                                <td>36-37</td>
+                                <td>37-38</td>
+                                <td>38-39</td>
+                                <td>39-40</td>
+                                <td>40-41</td>
+                                <td>41-42</td>
+                            </tr>
+
+                            <tr>
+                                <td>38</td>
+                                <td>33-34</td>
+                                <td>38-39</td>
+                                <td>39-40</td>
+                                <td>40-41</td>
+                                <td>41-42</td>
+                                <td>42-43</td>
+                                <td>43-44</td>
+                            </tr>
+
+                            <tr>
+                                <td>40</td>
+                                <td>35-36</td>
+                                <td>40-41</td>
+                                <td>41-42</td>
+                                <td>42-43</td>
+                                <td>43-44</td>
+                                <td>44-45</td>
+                                <td>45-46</td>
+                            </tr>
+
+                            <tr>
+                                <td>42</td>
+                                <td>37-38</td>
+                                <td>42-43</td>
+                                <td>43-44</td>
+                                <td>44-45</td>
+                                <td>45-46</td>
+                                <td>46-47</td>
+                                <td>47-48</td>
+                            </tr>
+
+                            <tr>
+                                <td>44</td>
+                                <td>39-40</td>
+                                <td>44-45</td>
+                                <td>45-46</td>
+                                <td>46-47</td>
+                                <td>47-48</td>
+                                <td>48-49</td>
+                                <td>49-50</td>
+                            </tr>
+
+                            <tr>
+                                <td>Free size</td>
+                                <td colspan="7">Our free size product are made of
+                                    knitted material and can fit well on bodies from size S to L
+                                </td>
+                            </tr>
+
+                        </tbody>
+                        <!-- <div class="mt-3 "><span style="color:#FB0004;">*</span> Measurement in
+                            inches
+                        </div> -->
+                    </table>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-12">
+                <div class="table-text-wrap">
+                    <table class="bra-size-table-wrap table2 " style="Display: none;">
+                        <tbody>
+                            <tr bgcolor="#e3e3e3" style="color: #000">
+                                <td rowspan="2">BAND SIZE</td>
+                                <td rowspan="2">UNDERBUST <br>(cm/m)</td>
+                                <td colspan="6">OVER BUST (cm/m)</td>
+
+                            </tr>
+                            <tr style="color: #000" bgcolor="#ebebeb">
+                                <td>CUP A</td>
+                                <td>CUP B</td>
+                                <td>CUP C</td>
+                                <td>CUP D</td>
+                                <td>CUP E</td>
+                                <td>CUP F</td>
+                            </tr>
+
+                            <tr>
+                                <td>28</td>
+                                <td>58.5-63.5</td>
+                                <td>71-73.5</td>
+                                <td>73.5-76</td>
+                                <td>76-78.5</td>
+                                <td>78.5-81</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>30</td>
+                                <td> 63.5-68.5</td>
+                                <td>76-78.5</td>
+                                <td>78.5-81</td>
+                                <td>81-83.5</td>
+                                <td>83.5-86</td>
+
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td>32</td>
+                                <td> 68.5-73.5</td>
+                                <td> 81-83.5</td>
+                                <td> 83.5- 86</td>
+                                <td> 86- 89</td>
+                                <td>89-91.5</td>
+                                <td> 91.5-94</td>
+                                <td> 94-96.5</td>
+
+                            </tr>
+
+                            <tr>
+                                <td>34</td>
+                                <td> 73.5-78.5</td>
+                                <td>86-89</td>
+                                <td>89-91.5</td>
+                                <td>91.5-94</td>
+                                <td>94-96.5</td>
+                                <td>96.5-99</td>
+                                <td>99-1.01m</td>
+                            </tr>
+
+                            <tr>
+                                <td>36</td>
+                                <td>78.5-84</td>
+                                <td>91.5-94</td>
+                                <td>94-96.5</td>
+                                <td>96.5-99</td>
+                                <td>99cm-1.01m</td>
+                                <td>1.01-1.04m</td>
+                                <td>1.04-1.06m</td>
+                            </tr>
+
+                            <tr>
+                                <td>38</td>
+                                <td>84-89</td>
+                                <td>96.5-99</td>
+                                <td>99-1.01m</td>
+                                <td>1.01-1.04m</td>
+                                <td>1.04-1.06m</td>
+                                <td>1.06-1.09m</td>
+                                <td>1.09-1.11m</td>
+                            </tr>
+
+                            <tr>
+                                <td>40</td>
+                                <td>89-94</td>
+                                <td>1.01-1.04m</td>
+                                <td>1.04-1.06m</td>
+                                <td>1.06-1.09m</td>
+                                <td>1.09-1.11m</td>
+                                <td>1.11-1.14m</td>
+                                <td>1.14-1.16m</td>
+                            </tr>
+
+                            <tr>
+                                <td>42</td>
+                                <td>94-99</td>
+                                <td>1.06-1.09m</td>
+                                <td>1.09-1.11m</td>
+                                <td>1.11-1.14m</td>
+                                <td>1.14-1.16m</td>
+                                <td>1.16-1.19m</td>
+                                <td>1.19-1.21m</td>
+                            </tr>
+
+                            <tr>
+                                <td>44</td>
+                                <td>99-1.04</td>
+                                <td>1.11-1.14m</td>
+                                <td>1.14-1.16m</td>
+                                <td>1.16-1.19m</td>
+                                <td>1.19-1.21m</td>
+                                <td>1.22-1.24m</td>
+                                <td>1.24-1.27m</td>
+                            </tr>
+
+                            <tr>
+                                <td>Free size</td>
+                                <td colspan="7">Our free size product are made of
+                                    knitted material and can fit well on bodies from size S to L
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+
+
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!--=== Bra size table end===-->
+
+
+
+
+
+
+    <!--====Bra-Size banner section start====-->
+
+
+
+
+
+    <!--====Bra-Size banner Section End====-->
+
+
+
+    <!--====About wear bra section start=====-->
+
+
+    
+
+
+    <!--====About wear bra section end=====-->
+
+
+
+
+
+
+
+
+
+
+
+    
+   
+    <!-- Plugins-->
+    <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+    <script src="plugins/jquery-1.12.4.min.js"></script>
+    <script src="plugins/selectize/dist/js/standalone/selectize.min.js"></script>
+    <script src="plugins/plugins.min.js"></script>
+    <!-- Custom scripts-->
+    <script src="js/main.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxflHHc5FlDVI-J71pO7hM1QJNW1dRp4U&amp;region=GB"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+
+            $(".button1").click(function () {
+                $(".table1").show();
+                $(".table2").hide();
+               
+
+            });
+            $(".button2").click(function () {
+                    $(".table2").show();
+                    $(".table1").hide();
+                });
+        });
+
+
+        /*==================================================================================
+                       calculator button jquery
+        ====================================================================*/
+        $(document).ready(function () {
+
+            $(".button-in").click(function () {
+                $(".calculator1").show();
+                $(".calculator2").hide();
+                
+            });
+
+            $(".button-cm").click(function () {
+                    $(".calculator2").show();
+                    $(".calculator1").hide();
+                });
+
+           
+        });
+
+
+
+        $(document).ready(function () {
+            $(".button-cm").click(function () {
+                $(".button-cm").addClass("inches")
+                $(".button-in").removeClass("inches")
+
+          });
+          $(".button-in").click(function () {
+                    $(".button-in").addClass("inches")
+                    $(".button-cm").removeClass("inches")
+
+                });
+
+        });
+
+
+
+
+        $(document).ready(function () {
+            $(".button1").click(function () {
+                $(".button1").addClass("inches-table")
+                $(".button2").removeClass("inches-table")
+
+            });
+            
+            $(".button2").click(function () {
+                    $(".button2").addClass("inches-table")
+                    $(".button1").removeClass("inches-table")
+
+                });
+        });
+
+
+
+
+
+    </script>
+
+
+    <script>
+
+
+        /*==================================================================================
+
+                           inches slider
+        ====================================================================*/
+
+
+
+
+
+        $(document).ready(function () {
+            $("#underb, #overb").keyup(function () {
+
+
+                inchkeyup();
+
+
+
+            });
+        });
+
+
+
+
+
+        var slider_inches = document.getElementById("myRange_inches");
+        var output_inches = document.getElementById("underb");
+        output_inches.value = slider_inches.value;
+
+        slider_inches.oninput = function () {
+            output_inches.value = this.value;
+            inchkeyup();
+        }
+
+
+
+
+        var slider_inches_over = document.getElementById("myRange1_inches");
+        var output_inches_over = document.getElementById("overb");
+        output_inches_over.value = slider_inches_over.value;
+
+        slider_inches_over.oninput = function () {
+            output_inches_over.value = this.value;
+            inchkeyup();
+        }
+
+
+
+        function inchkeyup() {
+
+
+            $underbvalue = $("#underb").val();
+            $overbvalue = $("#overb").val();
+
+            if ($underbvalue >= 23 && $underbvalue <= 24.9) {
+
+                if ($overbvalue >= 28 && $overbvalue <= 28.9) {
+                    $("#resultb").val("28A");
+                } else if ($overbvalue >= 29 && $overbvalue <= 29.9) {
+                    $("#resultb").val("28B");
+                } else if ($overbvalue >= 30 && $overbvalue <= 30.9) {
+                    $("#resultb").val("28C");
+                } else if ($overbvalue >= 31 && $overbvalue <= 32) {
+                    $("#resultb").val("28D");
+                }
+                else {
+                    $("#resultb").val("Incorrect Over Size");
+                }
+            }
+
+
+            else if ($underbvalue >= 25 && $underbvalue <= 26.9) {
+
+                if ($overbvalue >= 30 && $overbvalue <= 30.9) {
+                    $("#resultb").val("30A");
+                } else if ($overbvalue >= 31 && $overbvalue <= 31.9) {
+                    $("#resultb").val("30B");
+                } else if ($overbvalue >= 32 && $overbvalue <= 32.9) {
+                    $("#resultb").val("30C");
+                } else if ($overbvalue >= 33 && $overbvalue <= 34.9) {
+                    $("#resultb").val("30D");
+                }
+                else {
+                    $("#resultb").val("Incorrect Over Size");
+                }
+            }
+
+            else if ($underbvalue >= 27 && $underbvalue <= 28.9) {
+
+                if ($overbvalue >= 32 && $overbvalue <= 32.9) {
+                    $("#resultb").val("32A");
+                } else if ($overbvalue >= 33 && $overbvalue <= 33.9) {
+                    $("#resultb").val("32B");
+                } else if ($overbvalue >= 34 && $overbvalue <= 34.9) {
+                    $("#resultb").val("32C");
+                } else if ($overbvalue >= 35 && $overbvalue <= 36.9) {
+                    $("#resultb").val("32D");
+                } else if ($overbvalue >= 37 && $overbvalue <= 37.9) {
+                    $("#resultb").val("32E");
+                } else if ($overbvalue == 38) {
+                    $("#resultb").val("32F");
+
+                } else {
+                    $("#resultb").val("Incorrect Over Size");
+                }
+            }
+
+            else if ($underbvalue >= 29 && $underbvalue <= 30.9) {
+
+                if ($overbvalue >= 34 && $overbvalue <= 34.9) {
+                    $("#resultb").val("34A");
+                } else if ($overbvalue >= 35 && $overbvalue <= 35.9) {
+                    $("#resultb").val("34B");
+                } else if ($overbvalue >= 36 && $overbvalue <= 36.9) {
+                    $("#resultb").val("34C");
+                } else if ($overbvalue >= 37 && $overbvalue <= 38.9) {
+                    $("#resultb").val("34D");
+                } else if ($overbvalue >= 39 && $overbvalue <= 39.9) {
+                    $("#resultb").val("34E");
+                } else if ($overbvalue >= 40 && $overbvalue <= 40.9) {
+                    $("#resultb").val("34F");
+                } else {
+                    $("#resultb").val("Incorrect Over Size");
+                }
+            }
+
+            else if ($underbvalue >= 31 && $underbvalue <= 32.9) {
+
+                if ($overbvalue >= 36 && $overbvalue <= 36.9) {
+                    $("#resultb").val("36A");
+                } else if ($overbvalue >= 37 && $overbvalue <= 37.9) {
+                    $("#resultb").val("36B");
+                } else if ($overbvalue >= 38 && $overbvalue <= 38.9) {
+                    $("#resultb").val("36C");
+                } else if ($overbvalue >= 39 && $overbvalue <= 40.9) {
+                    $("#resultb").val("36D");
+                } else if ($overbvalue >= 41 && $overbvalue <= 41.9) {
+                    $("#resultb").val("36E");
+                } else if ($overbvalue >= 42 && $overbvalue <= 42.9) {
+                    $("#resultb").val("36F");
+                } else {
+                    $("#resultb").val("Incorrect Under Size");
+                }
+            }
+
+
+            else if ($underbvalue >= 33 && $underbvalue <= 34.9) {
+
+                if ($overbvalue >= 38 && $overbvalue <= 38.9) {
+                    $("#resultb").val("38A");
+                } else if ($overbvalue >= 39 && $overbvalue >= 39.9) {
+                    $("#resultb").val("38B");
+                } else if ($overbvalue >= 40 && $overbvalue >= 40.9) {
+                    $("#resultb").val("38C");
+                } else if ($overbvalue >= 41 && $overbvalue <= 42.9) {
+                    $("#resultb").val("38D");
+                } else if ($overbvalue >= 43 && $overbvalue >= 43.9) {
+                    $("#resultb").val("38E");
+                } else if ($overbvalue >= 44 && $overbvalue >= 44.9) {
+                    $("#resultb").val("38F");
+                } else {
+                    $("#resultb").val("Incorrect Under Size");
+                }
+            }
+
+
+            else if ($underbvalue >= 35 && $underbvalue <= 36.9) {
+
+                if ($overbvalue >= 40 && $overbvalue <= 40.9) {
+                    $("#resultb").val("40A");
+                } else if ($overbvalue >= 41 && $overbvalue <= 41.9) {
+                    $("#resultb").val("40B");
+                } else if ($overbvalue >= 42 && $overbvalue <= 42.9) {
+                    $("#resultb").val("40C");
+                } else if ($overbvalue >= 43 && $overbvalue <= 44.9) {
+                    $("#resultb").val("40D");
+                } else if ($overbvalue >= 45 && $overbvalue <= 45.9) {
+                    $("#resultb").val("40E");
+                } else if ($overbvalue >= 46 && $overbvalue <= 46.9) {
+                    $("#resultb").val("40F");
+                } else {
+                    $("#resultb").val("Incorrect Under Size");
+                }
+            }
+
+
+
+
+            else if ($underbvalue >= 37 && $underbvalue <= 38.9) {
+
+                if ($overbvalue >= 42 && $overbvalue <= 42.9) {
+                    $("#resultb").val("42A");
+                } else if ($overbvalue >= 43 && $overbvalue <= 43.9) {
+                    $("#resultb").val("42B");
+                } else if ($overbvalue >= 44 && $overbvalue <= 44.9) {
+                    $("#resultb").val("42C");
+                } else if ($overbvalue >= 45 && $overbvalue <= 46.9) {
+                    $("#resultb").val("42D");
+                } else if ($overbvalue >= 47 && $overbvalue <= 47.9) {
+                    $("#resultb").val("42E");
+                } else if ($overbvalue >= 48 && $overbvalue <= 48.9) {
+                    $("#resultb").val("42F");
+                } else {
+                    $("#resultb").val("Incorrect Under Size");
+                }
+            }
+
+            else if ($underbvalue >= 39 && $underbvalue <= 40.9) {
+
+                if ($overbvalue >= 44 && $overbvalue <= 44.9) {
+                    $("#resultb").val("44A");
+                } else if ($overbvalue >= 45 && $overbvalue <= 45.9) {
+                    $("#resultb").val("44B");
+                } else if ($overbvalue >= 46 && $overbvalue <= 46.9) {
+                    $("#resultb").val("44C");
+                } else if ($overbvalue >= 47 && $overbvalue <= 48.9) {
+                    $("#resultb").val("44D");
+                } else if ($overbvalue >= 49 && $overbvalue <= 49.9) {
+                    $("#resultb").val("44E");
+                } else if ($overbvalue >= 50 && $overbvalue <= 50.9) {
+                    $("#resultb").val("44F");
+                } else {
+                    $("#resultb").val("Incorrect Under Size");
+                }
+            }
+
+        }
+
+    </script>
+
+
+
+
+    <script>
+
+
+
+
+        /* =====================================================================
+        
+        
+        ========================================================================
+ 
+         
+                                       CM CALCULATOR  
+ 
+        =========================================================================
+ 
+ 
+        =========================================================================== */
+
+
+
+
+
+        $(document).ready(function () {
+            $("#undercm, #overcm").keyup(function () {
+
+                cmkeyup();
+
+
+
+
+            });
+        });
+
+
+
+
+
+        var slider_cm = document.getElementById("mayRange_cm");
+        var output_cm = document.getElementById("undercm");
+        output_cm.value = slider_cm.value;
+
+        slider_cm.oninput = function () {
+            output_cm.value = this.value;
+            cmkeyup();
+        }
+
+
+
+
+        var slider1_cm = document.getElementById("mayRange1-cm");
+        var output1_cm = document.getElementById("overcm");
+        output1_cm.value = slider1_cm.value;
+
+        slider1_cm.oninput = function () {
+            output1_cm.value = this.value;
+            cmkeyup();
+        }
+
+        function cmkeyup() {
+            $undercmvalue = $("#undercm").val();
+            $overcmvalue = $("#overcm").val();
+
+
+            if ($undercmvalue >= 58.5 && $undercmvalue <= 63.4) {
+
+
+                if ($overcmvalue >= 71 && $overcmvalue <= 73.4) {
+                    $("#resultcm").val("28A");
+                } else if ($overcmvalue >= 73.5 && $overcmvalue <= 75.9) {
+                    $("#resultcm").val("28B");
+                } else if ($overcmvalue >= 76 && $overcmvalue <= 78.4) {
+                    $("#resultcm").val("28C");
+                } else if ($overcmvalue >= 78.5 && $overcmvalue <= 81) {
+                    $("#resultcm").val("28D");
+                }
+                else {
+                    $("#resultcm").val("Incorrect Over Size");
+                }
+            }
+
+
+            else if ($undercmvalue >= 63.4 && $undercmvalue <= 68.5) {
+
+                if ($overcmvalue >= 76 && $overcmvalue <= 78.4) {
+                    $("#resultcm").val("30A");
+                } else if ($overcmvalue >= 78.5 && $overcmvalue <= 80.9) {
+                    $("#resultcm").val("30B");
+                } else if ($overcmvalue >= 81 && $overcmvalue <= 83.4) {
+                    $("#resultcm").val("30C");
+                } else if ($overcmvalue >= 83.5 && $overcmvalue <= 86) {
+                    $("#resultcm").val("30D");
+                }
+                else {
+                    $("#resultcm").val("Incorrect Over Size");
+                }
+            }
+
+            else if ($undercmvalue >= 68.5 && $undercmvalue <= 73.4) {
+
+                if ($overcmvalue >= 81 && $overcmvalue <= 83.4) {
+                    $("#resultcm").val("32A");
+                } else if ($overcmvalue >= 83.5 && $overcmvalue <= 85.9) {
+                    $("#resultcm").val("32B");
+                } else if ($overcmvalue >= 86 && $overcmvalue <= 88.9) {
+                    $("#resultcm").val("32C");
+                } else if ($overcmvalue >= 89 && $overcmvalue <= 91.4) {
+                    $("#resultcm").val("32D");
+                } else if ($overcmvalue >= 91.5 && $overcmvalue <= 93.9) {
+                    $("#resultcm").val("32E");
+                } else if ($overcmvalue >= 94 && $overcmvalue <= 96.5) {
+                    $("#resultcm").val("32F");
+
+                } else {
+                    $("#resultcm").val("Incorrect Over Size");
+                }
+            }
+
+            else if ($undercmvalue >= 73.5 && $undercmvalue <= 78.4) {
+
+                if ($overcmvalue >= 86 && $overcmvalue <= 88.9) {
+                    $("#resultcm").val("34A");
+                } else if ($overcmvalue >= 89 && $overcmvalue <= 91.4) {
+                    $("#resultcm").val("34B");
+                } else if ($overcmvalue >= 91.5 && $overcmvalue <= 93.9) {
+                    $("#resultcm").val("34C");
+                } else if ($overcmvalue >= 94 && $overcmvalue <= 96.5) {
+                    $("#resultcm").val("34D");
+                } else if ($overcmvalue >= 96.5 && $overcmvalue <= 98.9) {
+                    $("#resultcm").val("34E");
+                } else if ($overcmvalue >= 99 && $overcmvalue <= 101) {
+                    $("#resultcm").val("34F");
+
+                } else {
+                    $("#resultcm").val("Incorrect Over Size");
+                }
+            }
+
+            else if ($undercmvalue >= 78.5 && $undercmvalue <= 83.9) {
+
+                if ($overcmvalue >= 91.5 && $overcmvalue <= 93.9) {
+                    $("#resultcm").val("36A");
+                } else if ($overcmvalue >= 94 && $overcmvalue <= 96.4) {
+                    $("#resultcm").val("36B");
+                } else if ($overcmvalue >= 96.5 && $overcmvalue <= 98.9) {
+                    $("#resultcm").val("36C");
+                } else if ($overcmvalue >= 99 && $overcmvalue <= 100) {
+                    $("#resultcm").val("36D");
+                } else if ($overcmvalue >= 101 && $overcmvalue <= 103) {
+                    $("#resultcm").val("36E");
+                } else if ($overcmvalue >= 104 && $overcmvalue <= 106) {
+                    $("#resultcm").val("36F");
+
+                } else {
+                    $("#resultcm").val("Incorrect Over Size");
+                }
+            }
+
+
+            else if ($undercmvalue >= 84 && $undercmvalue <= 88.9) {
+
+                if ($overcmvalue >= 96.5 && $overcmvalue <= 98.9) {
+                    $("#resultcm").val("38A");
+                } else if ($overcmvalue >= 99 && $overcmvalue <= 100) {
+                    $("#resultcm").val("38B");
+                } else if ($overcmvalue >= 101 && $overcmvalue <= 103) {
+                    $("#resultcm").val("38C");
+                } else if ($overcmvalue >= 104 && $overcmvalue <= 105) {
+                    $("#resultcm").val("38D");
+                } else if ($overcmvalue >= 106 && $overcmvalue <= 108) {
+                    $("#resultcm").val("38E");
+                } else if ($overcmvalue >= 109 && $overcmvalue <= 111) {
+                    $("#resultcm").val("38F");
+
+                } else {
+                    $("#resultcm").val("Incorrect Over Size");
+                }
+            }
+
+
+            else if ($undercmvalue >= 89 && $undercmvalue <= 93.9) {
+
+                if ($overcmvalue >= 101 && $overcmvalue <= 103) {
+                    $("#resultcm").val("40A");
+                } else if ($overcmvalue >= 104 && $overcmvalue <= 105) {
+                    $("#resultcm").val("40B");
+                } else if ($overcmvalue >= 106 && $overcmvalue <= 108) {
+                    $("#resultcm").val("40C");
+                } else if ($overcmvalue >= 109 && $overcmvalue <= 110) {
+                    $("#resultcm").val("40D");
+                } else if ($overcmvalue >= 111 && $overcmvalue <= 113) {
+                    $("#resultcm").val("40E");
+                } else if ($overcmvalue >= 114 && $overcmvalue <= 116) {
+                    $("#resultcm").val("40F");
+
+                } else {
+                    $("#resultcm").val("Incorrect Over Size");
+                }
+            }
+
+
+
+
+            else if ($undercmvalue >= 94 && $undercmvalue <= 98.9) {
+
+                if ($overcmvalue >= 106 && $overcmvalue <= 108) {
+                    $("#resultcm").val("42A");
+                } else if ($overcmvalue >= 109 && $overcmvalue <= 110) {
+                    $("#resultcm").val("42B");
+                } else if ($overcmvalue >= 111 && $overcmvalue <= 113) {
+                    $("#resultcm").val("42C");
+                } else if ($overcmvalue >= 114 && $overcmvalue <= 115) {
+                    $("#resultcm").val("42D");
+                } else if ($overcmvalue >= 116 && $overcmvalue <= 118) {
+                    $("#resultcm").val("42E");
+                } else if ($overcmvalue >= 119 && $overcmvalue <= 121) {
+                    $("#resultcm").val("42F");
+
+                } else {
+                    $("#resultcm").val("Incorrect Over Size");
+                }
+            }
+
+            else if ($undercmvalue >= 99 && $undercmvalue <= 104) {
+
+                if ($overcmvalue >= 111 && $overcmvalue <= 113) {
+                    $("#resultcm").val("44A");
+                } else if ($overcmvalue >= 114 && $overcmvalue <= 115) {
+                    $("#resultcm").val("44B");
+                } else if ($overcmvalue >= 116 && $overcmvalue <= 118) {
+                    $("#resultcm").val("44C");
+                } else if ($overcmvalue >= 119 && $overcmvalue <= 121) {
+                    $("#resultcm").val("44D");
+                } else if ($overcmvalue >= 122 && $overcmvalue <= 123) {
+                    $("#resultcm").val("44E");
+                } else if ($overcmvalue >= 124 && $overcmvalue <= 127) {
+                    $("#resultcm").val("44F");
+
+                } else {
+                    $("#resultcm").val("Incorrect Over Size");
+                }
+            }
+
+        }
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+<!-- Mirrored from nouthemes.net/html/voye/homepage-4.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Oct 2022 07:20:02 GMT -->
+
+</html>
